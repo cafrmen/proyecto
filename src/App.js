@@ -117,12 +117,12 @@ function App() {
 
         <footer>
           <small className="credits">
-            <a href="https://github.com/cafrmen/WeatherApp" target="_blank"
+            <a href="https://github.com/cafrmen/proyecto" target="_blank"
               >Open source </a
             >
             by Caf. Hosted at
             <a
-              href="https://xenodochial-fermi-222350.netlify.app"
+              href="https://peaceful-mestorf-50a809.netlify.app"
               target="_blank"
               > Netlify.</a
             >
