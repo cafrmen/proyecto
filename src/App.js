@@ -114,6 +114,20 @@ function App() {
         <h6 className="hour">21:00</h6>
       </div>
         </div>
+
+        <footer>
+          <small className="credits">
+            <a href="https://github.com/cafrmen/WeatherApp" target="_blank"
+              >Open source </a
+            >
+            by Caf. Hosted at
+            <a
+              href="https://xenodochial-fermi-222350.netlify.app"
+              target="_blank"
+              > Netlify.</a
+            >
+          </small>
+        </footer>
         
       </div>
     </div>
