@@ -1,38 +1,106 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
+  color: azure;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  margin-top: 10px;
+  max-width: 600px;
+  background-color: #24404b;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form {
+  text-align: right;
+  color: #154360;
+  padding: 10px 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input {
+  margin: 0 auto;
+  border-radius: 30px;
+  border: 0;
+  color: #154360;
+  background-color: white;
+  border-color: #ecf0f1;
+  transition: 300ms ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+input:hover {
+  background-color: #eafaf1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  display: inline;
+  margin-top: 20px;
+  font-size: small;
+  border-radius: 30px;
+  border: 0;
+  color: #154360;
+  background-color: #eafaf1;
+  border-color: #ecf0f1;
+  transition: 300ms ease-in-out;
+}
+
+li {
+  text-align: left;
+  list-style: none;
+  left: 0;
+}
+
+h2 {
+  display: inline;
+  margin-bottom: 0;
+}
+
+.countrid {
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+h5 {
+  text-transform: capitalize;
+}
+
+.temperatureSet {
+  margin-bottom: 20px;
+}
+
+.degrees {
+  position: relative;
+  top: 4px;
+  font-size: 36px;
+}
+
+.typeDegrees {
+  position: relative;
+  top: -11px;
+}
+
+a {
+  color: #f9e79f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fad7a0;
+}
+
+.temperatureSet {
+  margin-bottom: 20px;
+}
+
+.forecastIcon {
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 90%;
+}
+
+.hour {
+  margin-bottom: 10;
+  margin-top: 0px;
+  font-size: 11px;
 }
